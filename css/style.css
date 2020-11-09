@@ -1,0 +1,33 @@
+.jumbotron-fluid {
+  height: 730px;
+}
+#botones {
+  background-color: #396204;
+}
+.nav-link,
+p {
+  color: #809636;
+}
+body,
+#tarjeta {
+  background-color: #f4eed6;
+  border: none;
+}
+.name {
+  text-align: center;
+  padding-top: 200px;
+  font-weight: 600;
+}
+
+h2,
+.name {
+  color: #4f3b03;
+}
+
+.contactinfo {
+  background-color: #4f3b03;
+  height: 50px;
+}
+h3 {
+  color: #809636;
+}

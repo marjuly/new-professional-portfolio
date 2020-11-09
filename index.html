@@ -38,19 +38,19 @@
             <div class="container">
               <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <a class="nav-link active" href="#">Home</a>
+                  <a class="nav-link active" onclick="scrollWin1()">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Portfolio</a>
+                  <a class="nav-link" onclick="scrollWin2()">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Resume</a>
+                  <a class="nav-link" onclick="scrollWin3()">Resume</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
+                  <a class="nav-link" onclick="scrollWin4()">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
+                  <a class="nav-link" onclick="scrollWin5()">Contact</a>
                 </li>
               </ul>
               <h1 class="display-4 name">Marjuly Cruz</h1>
@@ -67,7 +67,7 @@
 
       <div class="row">
         <div class="col-3">
-          <div class="card" style="width: 18rem;">
+          <div id="tarjeta" class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Year 1</h5>
@@ -75,13 +75,13 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-success">Go somewhere</a>
+              <a href="#" id="botones" class="btn btn-success">Go somewhere</a>
             </div>
           </div>
         </div>
         <div class="col-1"></div>
         <div class="col-3">
-          <div class="card" style="width: 18rem;">
+          <div id="tarjeta" class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Year 2</h5>
@@ -89,13 +89,13 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-success">Go somewhere</a>
+              <a href="#" id="botones" class="btn btn-success">Go somewhere</a>
             </div>
           </div>
         </div>
         <div class="col-1"></div>
         <div class="col-3">
-          <div class="card" style="width: 18rem;">
+          <div id="tarjeta" class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Year 3</h5>
@@ -103,7 +103,7 @@
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-success">Go somewhere</a>
+              <a href="#" id="botones" class="btn btn-success">Go somewhere</a>
             </div>
           </div>
         </div>
@@ -125,9 +125,9 @@
         <div class="col-1"></div>
       </div>
 
-      <div class="row">
+      <div class="row contactinfo">
         <div class="col-1"></div>
-        <div class="col-4"></div>
+        <div class="col-4"><h3>Contact Information</h3></div>
         <div class="col-4"></div>
         <div class="col-1"></div>
       </div>
