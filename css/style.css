@@ -1,5 +1,9 @@
-.jumbotron-fluid {
+#top {
   height: 730px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/08/21/23/29/fog-3622519_1280.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-clip: padding-box;
 }
 #botones {
   background-color: #396204;
@@ -8,6 +12,16 @@
 p {
   color: #809636;
 }
+
+.nav-link:hover,
+.nav-link:active {
+  color: #396204;
+}
+
+#tarjeta,
+#botones {
+}
+
 body,
 #tarjeta {
   background-color: #f4eed6;
