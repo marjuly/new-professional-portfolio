@@ -5,9 +5,23 @@
   background-repeat: no-repeat;
   background-clip: padding-box;
 }
-#botones {
+
+.icon{
+  cursor:not-allowed !important;
+  height: 46px;
+  width: 46px;
+  margin: ;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.jumbotron, #botones{
   background-color: #396204;
 }
+
 .nav-link,
 p {
   color: #809636;
@@ -20,6 +34,7 @@ p {
 
 #tarjeta,
 #botones {
+  text-align: center;
 }
 
 body,
@@ -40,8 +55,9 @@ h2,
 
 .contactinfo {
   background-color: #4f3b03;
-  height: 50px;
+  height: 120px;
 }
 h3 {
   color: #809636;
+  padding: 30px;
 }
