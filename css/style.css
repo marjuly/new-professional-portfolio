@@ -6,19 +6,20 @@
   background-clip: padding-box;
 }
 
-.icon{
-  cursor:not-allowed !important;
+.icon {
+  cursor: not-allowed !important;
   height: 46px;
   width: 46px;
-  margin: ;
+  margin: 3px;
+  padding-top: ;
 }
-
 
 html {
   scroll-behavior: smooth;
 }
 
-.jumbotron, #botones{
+.jumbotron,
+#botones {
   background-color: #396204;
 }
 
@@ -33,7 +34,9 @@ p {
 }
 
 #tarjeta,
-#botones {
+#botones,
+#resume,
+h2 {
   text-align: center;
 }
 
@@ -53,11 +56,14 @@ h2,
   color: #4f3b03;
 }
 
-.contactinfo {
-  background-color: #4f3b03;
-  height: 120px;
-}
 h3 {
   color: #809636;
   padding: 30px;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #4f3b03;
+  height: 136px;
 }
