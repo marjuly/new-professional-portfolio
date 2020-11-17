@@ -7,11 +7,15 @@
 }
 
 .icon {
-  cursor: not-allowed !important;
   height: 46px;
   width: 46px;
   margin: 3px;
   padding-top: ;
+}
+
+.icon,
+#no {
+  cursor: not-allowed !important;
 }
 
 html {
@@ -19,7 +23,8 @@ html {
 }
 
 .jumbotron,
-#botones {
+#botones,
+#no {
   background-color: #396204;
 }
 
@@ -36,6 +41,7 @@ p {
 #tarjeta,
 #botones,
 #resume,
+#lol,
 h2 {
   text-align: center;
 }
@@ -44,21 +50,33 @@ body,
 #tarjeta {
   background-color: #f4eed6;
   border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 .name {
   text-align: center;
   padding-top: 200px;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 h2,
 .name {
   color: #4f3b03;
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
 }
 
 h3 {
-  color: #809636;
   padding: 30px;
+}
+
+h3,
+#resume {
+  color: #809636;
 }
 .footer {
   left: 0;
@@ -66,4 +84,15 @@ h3 {
   width: 100%;
   background-color: #4f3b03;
   height: 136px;
+}
+#lol {
+  color: #f4eed6;
+}
+
+#resume {
+  height: 130px;
+}
+
+.card-title {
+  font-weight: 400;
 }
