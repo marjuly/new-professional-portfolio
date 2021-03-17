@@ -24,6 +24,7 @@ html {
 
 .jumbotron,
 #botones,
+.botones,
 #no {
   background-color: #396204;
 }
@@ -75,7 +76,8 @@ h3 {
 }
 
 h3,
-#resume {
+#resume,
+.botones:hover {
   color: #809636;
 }
 .footer {
@@ -85,7 +87,8 @@ h3,
   background-color: #4f3b03;
   height: 136px;
 }
-#lol {
+#lol,
+.botones {
   color: #f4eed6;
 }
 
