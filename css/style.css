@@ -4,13 +4,13 @@
   background-size: 100%;
   background-repeat: no-repeat;
   background-clip: padding-box;
+  height: 760px;
 }
 
 .icon {
   height: 46px;
   width: 46px;
   margin: 3px;
-  padding-top: ;
 }
 
 .icon,
@@ -51,7 +51,7 @@ body,
 #tarjeta {
   background-color: #f4eed6;
   border: none;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
 }
 .name {
