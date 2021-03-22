@@ -60,6 +60,10 @@ body,
   font-weight: 800;
 }
 
+.treefamily:hover {
+  filter: brightness(150%);
+}
+
 h2,
 .name {
   color: #4f3b03;
@@ -94,6 +98,10 @@ h3,
 
 #resume {
   height: 130px;
+}
+
+li {
+  font-size: 18px;
 }
 
 .card-title {
