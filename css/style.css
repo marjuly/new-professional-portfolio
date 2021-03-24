@@ -30,12 +30,15 @@ html {
 }
 
 .nav-link,
-p {
+p,
+#email:hover {
   color: #809636;
 }
 
 .nav-link:hover,
-.nav-link:active {
+.nav-link:active,
+#email:visited,
+#email:active {
   color: #396204;
 }
 
@@ -89,10 +92,11 @@ h3,
   bottom: 0;
   width: 100%;
   background-color: #4f3b03;
-  height: 136px;
+  height: 145px;
 }
 #lol,
-.botones {
+.botones,
+#email:link {
   color: #f4eed6;
 }
 
@@ -102,6 +106,10 @@ h3,
 
 li {
   font-size: 18px;
+}
+
+p {
+  font-size: 20px;
 }
 
 .card-title {
