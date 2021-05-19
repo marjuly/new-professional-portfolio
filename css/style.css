@@ -115,3 +115,13 @@ p {
 .card-title {
   font-weight: 400;
 }
+
+#yearOne,
+#yearTwo,
+#yearThree {
+  height: 45%;
+}
+
+.resume {
+  height: 500px;
+}
