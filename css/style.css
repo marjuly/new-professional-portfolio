@@ -92,7 +92,7 @@ h3,
   bottom: 0;
   width: 100%;
   background-color: #4f3b03;
-  height: 145px;
+  height: 150px;
 }
 #lol,
 .botones,
@@ -124,4 +124,17 @@ p {
 
 .resume {
   height: 500px;
+}
+
+.ricons {
+  height: 80px;
+  width: 80px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h4 {
+  font-style: italic;
+  margin: 20px;
 }
