@@ -44,7 +44,7 @@ p,
 
 #tarjeta,
 #botones,
-#resume,
+#resume-head,
 #lol,
 h2 {
   text-align: center;
@@ -83,7 +83,7 @@ h3 {
 }
 
 h3,
-#resume,
+#resume-head,
 .botones:hover {
   color: #809636;
 }
@@ -100,7 +100,7 @@ h3,
   color: #f4eed6;
 }
 
-#resume {
+#resume-head {
   height: 130px;
 }
 
@@ -123,7 +123,8 @@ p {
 }
 
 .resume {
-  height: 500px;
+  height: 400px;
+  background-image: url(https://cdn.pixabay.com/photo/2018/08/21/23/29/fog-3622519_1280.jpg);
 }
 
 .ricons {
