@@ -25,7 +25,9 @@ html {
 .jumbotron,
 #botones,
 .botones,
-#no {
+#no,
+#lol,
+#resume-head {
   background-color: #396204;
 }
 
@@ -124,7 +126,19 @@ p {
 
 .resume {
   height: 400px;
-  background-image: url(https://cdn.pixabay.com/photo/2018/08/21/23/29/fog-3622519_1280.jpg);
+  background-image: url(../img/fog.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#resume-head {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#lol {
+  margin-left: 360px;
 }
 
 .ricons {
@@ -137,5 +151,5 @@ p {
 
 h4 {
   font-style: italic;
-  margin: 20px;
+  margin: 10px;
 }
